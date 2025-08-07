@@ -1,0 +1,1 @@
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q]\\E$"}

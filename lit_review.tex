@@ -1,0 +1,118 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{amsmath}		
+\usepackage{amssymb}		
+\usepackage{siunitx}		
+\usepackage{graphicx}
+\usepackage{geometry}
+
+\usepackage{aas_macros}
+\usepackage[
+backend=biber,
+style=authoryear,
+sorting=none
+]{biblatex}
+\addbibresource{References.bib}
+\setlength{\biblabelsep}{.5em}
+
+\usepackage{hyperref}			
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    citecolor=cyan,
+}
+\newgeometry{
+    top=0.75in,
+    bottom=0.75in,
+    outer=0.75in,
+    inner=0.75in,
+}
+\usepackage{lipsum}
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\DeclareCiteCommand{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\begin{document}
+
+\begin{multicols}{2}
+[
+\title{}
+\begin{abstract}
+Overall scientific questions.
+\end{abstract}
+\vspace{0.5cm}
+]
+
+% -----------------------------------------------
+
+\section*{Introduction}
+
+\begin{itemize}
+    \item Overview of the ISM.\ How dust forms, why we use CO as a tracer. Why we might use other tracers.
+    \item Jeans collapse a model for star formation. 
+    \item IMF / CMF.\ How the high mass end changes. SF across different environments.
+    \item Quasistatic turbulent core fragmentation as a model for star formation.
+    \item Differences in methods.
+    \item (Nico and Alessio) Literature on decoupling cores from clumps. We would like to know at what stage the gas decouples.
+    \item CHIMPS paper and other extragalactic attempts at this sort of work.
+\end{itemize}
+
+\par\noindent The interstellar medium (ISM) is made up of primarily gas, as well as dust and cosmic rays. The ISM can be divided up based on temperature, ionisation and density, it consists of 5 main phases: the cold molecular medium (CMM), which is defined such that the gas is molecular with a temperature range of ${10} - {30}\ K$ and a number density between ${10}^{2} - {10}^{6}\ c{m}^{-3}$; the cold neutral medium (CNM), which is defined such that the gas is mostly atomic with a temperature range of ${30} - {100}\ K$ and a number density between ${1} - {100}\ c{m}^{-3}$; the warm neutral medium (WNM), which is defined such that the gas is mostly atomic with a temperature range of ${6000} - {10000}\ K$ and number densities below ${1}\ c{m}^{-3}$; the warm ionised medium (WIM), which is defined such that the gas is mostly ionised with a temperature range of ${8000} - {10000}\ K$ and number densities around ${0.4}\ c{m}^{-3}$ and the hot ionised medium (HIM), which is defined such that the gas is mostly ionised with a temperature range of ${10}^{6} - {10}^{7}\ K$ and number densities below ${10}^{-2}\ c{m}^{-3}$ \parencite[see][]{ISM}. The focus of this work will be on the CMM.\
+\smallskip
+\par\noindent Other than primordial elements, every atom formed inside stars. Therefore, initially these elements that make up the gas are hot and have not formed in their molecular state. To get to the temperature of the CMM, the gas must cool. A star ejects matter throughout its life as stellar winds, as well as at the end of its life in different ways depending on its mass. As the gas moves away from its projenitor the number of ionising photons will decrease which will offset the balance between ionisation and recombination allowing for a transition to the WNM.\ At higher temperatures the cooling from Lyman-$\alpha$ becomes important.
+
+\begin{equation}
+    \Lambda_H =
+\end{equation}
+
+% -----------------------------------------------
+
+\section*{Project Work}
+
+\begin{itemize}
+    \item Motivations (link back to the lit review).
+    \item Methods.
+    \item Conclusions and what that might mean.
+    \item Future work. 
+\end{itemize}
+
+\par\noindent
+
+% -----------------------------------------------
+
+\section*{Bibliography}
+% \hfuzz=1.5pt
+\printbibliography[heading=none]
+
+\end{multicols}
+\end{document}
