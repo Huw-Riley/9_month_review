@@ -52,6 +52,73 @@
       \field{title}{{Physical Processes in the Interstellar Medium}}
       \field{year}{2016}
     \endentry
+    \entry{Chemistry}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b0fcbfd1e3a0d8b7ec79337952622330}{%
+           family={Tielens},
+           familyi={T\bibinitperiod},
+           given={Alexander\bibnamedelima GGM},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{fullhash}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{fullhashraw}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{bibnamehash}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{authorbibnamehash}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{authornamehash}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{authorfullhash}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{authorfullhashraw}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The physics and chemistry of the interstellar medium}
+      \field{year}{2005}
+    \endentry
+    \entry{Heating_Cooling}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=c82d6f9bfc5668c144826ffca6e9a59b}{%
+           family={{Tielens}},
+           familyi={T\bibinitperiod},
+           given={A.\bibnamedelimi G.\bibnamedelimi G.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ad6c4ad9c637a256312b9acd578b077f}{%
+           family={{Hollenbach}},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{fullhash}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{fullhashraw}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{bibnamehash}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{authorbibnamehash}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{authornamehash}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{authorfullhash}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \strng{authorfullhashraw}{fdb4ad343b5b83eb897f0f61bb78c504}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{4}
+      \field{title}{{Photodissociation regions. I. Basic model.}}
+      \field{volume}{291}
+      \field{year}{1985}
+      \field{pages}{722\bibrangedash 746}
+      \range{pages}{25}
+      \keyw{Astronomical Models,Gas Ionization,Molecular Clouds,Nebulae,Photodissociation,Abundance,Brightness Temperature,Emission Spectra,Far Ultraviolet Radiation,Fine Structure,Gas Density,Gas Temperature,H Ii Regions,Infrared Spectra,Astrophysics}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

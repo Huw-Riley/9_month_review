@@ -89,11 +89,21 @@ Overall scientific questions.
 
 \par\noindent The interstellar medium (ISM) is made up of primarily gas, as well as dust and cosmic rays. The ISM can be divided up based on temperature, ionisation and density, it consists of 5 main phases: the cold molecular medium (CMM), which is defined such that the gas is molecular with a temperature range of ${10} - {30}\ K$ and a number density between ${10}^{2} - {10}^{6}\ c{m}^{-3}$; the cold neutral medium (CNM), which is defined such that the gas is mostly atomic with a temperature range of ${30} - {100}\ K$ and a number density between ${1} - {100}\ c{m}^{-3}$; the warm neutral medium (WNM), which is defined such that the gas is mostly atomic with a temperature range of ${6000} - {10000}\ K$ and number densities below ${1}\ c{m}^{-3}$; the warm ionised medium (WIM), which is defined such that the gas is mostly ionised with a temperature range of ${8000} - {10000}\ K$ and number densities around ${0.4}\ c{m}^{-3}$ and the hot ionised medium (HIM), which is defined such that the gas is mostly ionised with a temperature range of ${10}^{6} - {10}^{7}\ K$ and number densities below ${10}^{-2}\ c{m}^{-3}$ \parencite[see][]{ISM}. The focus of this work will be on the CMM.\
 \smallskip
-\par\noindent Other than primordial elements, every atom formed inside stars. Therefore, initially these elements that make up the gas are hot and have not formed in their molecular state. To get to the temperature of the CMM, the gas must cool. A star ejects matter throughout its life as stellar winds, as well as at the end of its life in different ways depending on its mass. As the gas moves away from its projenitor the number of ionising photons will decrease which will offset the balance between ionisation and recombination allowing for a transition to the WNM.\ At higher temperatures the cooling from Lyman-$\alpha$ becomes important.
+\par\noindent Other than primordial elements, every atom formed inside stars. Therefore, initially these elements that make up the gas are hot and have not formed in their molecular state. To get to the temperature of the CMM, the gas must cool. A star ejects matter throughout its life as stellar winds, as well as at the end of its life in different ways depending on its mass. As the gas moves away from its projenitor the number of ionising photons will decrease which will offset the balance between ionisation and recombination.\ At these higher temperatures the cooling from Lyman-$\alpha$ becomes important. The gereral form of the cooling rate of a two level system is shown below. 
 
 \begin{equation}
-    \Lambda_H =
+    \Lambda_{ul} = \dfrac{g_u}{g_l}A_{ul}E_{ul}n_{l}e^{-E_{ul}/k_{B}T}\label{eq:1}
+    \tag{1}
 \end{equation}
+
+\par\noindent \autoref{eq:1} is the rearranged form of 2.38 in\ \cite{Chemistry}. The formula comes about by assuming LTE and that the number density is much less than the critical density. $g_u$ and $g_l$ are statistical weihts of the energy states, $A_{ul}$ is the Einstein A coefficient of spontaneous emission, $E_{ul}$ is the energy of the transition and $n_{l}$ is the number density of the lower state. 
+
+\begin{equation}
+    \Lambda_{H\!I} = 7.3\times10^{-19}\text{exp}\left(\dfrac{-118400}{T}\right)n_e n_H\label{eq:2}
+    \tag{2}
+\end{equation}
+
+\par\noindent \autoref{eq:2} appears as 2.70 in\ \cite{Chemistry}. Above $10^4K$ the exponential term stops being negligible which causes the cooling rate to rise rapidly. This alongside the recombination to form atomic hydrgoen is what facilitates the transition to the WNM.\ At higher metalicities the cooling is not dominated by Lyman-$\alpha$ but by other fine structure transitions from heavier elements.\ Once cooled, \autoref{eq:2} shows a ceiling for the tempature in the WNM above which the cooling rate can rapidly exceed the different heating rates\ \cite{Heating_Cooling}. A different fine structure transition domminates the cooling in the WNM and facilitates the transition to the CNM, the [CII] transition. The energy of this transition is $92K$ meaning the exponent in \autoref{eq:1} becomes $e^{-92/T}$. This means that below $100K$ the cooling from [CII] decreases rapidly. Even though CO is a more efficient coolant at low temperatures with transitional energy of 
 
 % -----------------------------------------------
 
