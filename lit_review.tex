@@ -9,11 +9,31 @@
 \usepackage{aas_macros}
 \usepackage[
 backend=biber,
+uniquename=false,
+uniquelist=false,
+giveninits=true,
 style=authoryear,
 sorting=none
 ]{biblatex}
 \addbibresource{References.bib}
 \setlength{\biblabelsep}{.5em}
+\DeclareNameAlias{author}{family-given}
+
+\AtEveryBibitem{
+  % \clearfield{title}
+  \clearfield{month}
+  \clearfield{volume}
+  \clearfield{number}
+  \clearfield{pages}
+  \clearfield{doi}
+  \clearfield{archivePrefix}
+  \clearfield{eprint}
+  \clearfield{primaryClass}
+  \clearfield{adsurl}
+  \clearfield{adsnote}
+}
+\renewbibmacro{in:}{}
+\renewcommand*{\bibfont}{\normalfont\small}
 
 \usepackage{hyperref}			
 \hypersetup{
@@ -103,7 +123,13 @@ Overall scientific questions.
     \tag{2}
 \end{equation}
 
-\par\noindent \autoref{eq:2} appears as 2.70 in\ \cite{Chemistry}. Above $10^4K$ the exponential term stops being negligible which causes the cooling rate to rise rapidly. This alongside the recombination to form atomic hydrgoen is what facilitates the transition to the WNM.\ At higher metalicities the cooling is not dominated by Lyman-$\alpha$ but by other fine structure transitions from heavier elements.\ Once cooled, \autoref{eq:2} shows a ceiling for the tempature in the WNM above which the cooling rate can rapidly exceed the different heating rates\ \cite{Heating_Cooling}. A different fine structure transition domminates the cooling in the WNM and facilitates the transition to the CNM, the [CII] transition. The energy of this transition is $92K$ meaning the exponent in \autoref{eq:1} becomes $e^{-92/T}$. This means that below $100K$ the cooling from [CII] decreases rapidly. Even though CO is a more efficient coolant at low temperatures with transitional energy of 
+\par\noindent \autoref{eq:2} appears as 2.70 in\ \cite{Chemistry}. Above $10^4K$ the exponential term stops being negligible which causes the cooling rate to rise rapidly. This alongside the recombination to form atomic hydrgoen is what facilitates the transition to the WNM.\ At higher metalicities the cooling is not dominated by Lyman-$\alpha$ but by other fine structure transitions from heavier elements.\ Once cooled, \autoref{eq:2} shows a ceiling for the tempature in the WNM above which the cooling rate can rapidly exceed the different heating rates\ \parencite{Heating_Cooling}. A different fine structure transition domminates the cooling in the WNM and facilitates the transition to the CNM, the [CII] transition. The energy of this transition is $92K$ \parencite{Cooling_Heating} meaning the exponent in \autoref{eq:1} becomes $e^{-92/T}$. This means that below $100K$ the cooling from [CII] decreases rapidly. On the other hand, the first rovibrational transition $(J = 1\text{–}0)$ of CO emits a photon with a rest frequency of $115.27GHz$ \parencite{CO_1_0}, which gives an energy of $5.53K$, using $h\nu/k_B$. This allows the cooling rate of CO to dominate in this temperature regime and allow the gas to get to a temperature of around 10K. Even though CO is a more efficient coolant, [CII] seems to be a more dominant cooling mechanism at low metalicity as well as for diffuse gas with densities less than $10^3 cm^{-3}$ \parencite{CO_cooling}. This is partly because at low metalicity, the CO cannot be shielded by the dust and photodissociates by way of the ISRF.\ It is also important to note that\ \cite{CO_cooling} indicate that if the cloud is shielded from the effects of photoelectric heating then cooling from [CII] can allow the gas to get down to temperatures of $20K$ without the prescense of CO.\
+\smallskip
+\par\noindent Once there is gas at the typical temperatures of the CMM, molecular hydrogen can begin to form. Molecular hydrogen should form directly between two atoms of hydrogen but the Einstein A coefficient is too small for the process to allow for a photon to be emitted during their collision \parencite{H2_formation}. This means that molecular hydrogen cannot form efficiently this way, therefore another mechanism is required to get the amount of molecular hydrogen expected. The process involves atomic hydrogen sticking to a dust grain and potentially colliding with another atom of hydrogen allowing for the recombination of molecular hydrogen. The energy produced by this is enough to break the bonds between the dust grain and the molecule of hydrogen, allowing for it to return to the CMM \parencite{H2_formation}. This has been confirmed experimentally using various dust grain substitues made of carbon or silicates.\ \cite{dust_grain_experiment} find that the peak efficiency of the recombination occurs below $20K$ for both types of grain. The formation of CO is very complex \parencite[see][]{CO_formation} and can involve different pathways, the simplest of which is the formation from a carbon atom and a hydroxyl radical. 
+\smallskip
+\par\noindent Tracing molecular gas is important because it allows for the understanding of the steps that lead to star formation. CO is regarded as a good tracer of molecular gas for its abundance in molecular clouds and spontaeous low energy transitions, like the one described above. The idea is to trace the more abundant molecular hydrogen, which is not directly possible due to its lack of emission at the typical temperatures of the CMM.\ The lowest possible rotational transition of molecular hydrogen is at an energy of $510K$ \parencite{H2_formation}. CO has been the gold standard when it comes to tracing molecular hydrogen, but tracers like HCN or $N_2H^+$ have been fund to trace the dnese gas muich more effectively than CO.\ $N_2H^+$ is almost always being detected above column densties of $10^{22} cm^{-2}$ \parencite{N2H_plus_density}, meaning it is much better at tracing the clumps where stars are likely to be forming.
+\smallskip
+\par\noindent Jeans
 
 % -----------------------------------------------
 
@@ -120,8 +146,16 @@ Overall scientific questions.
 
 % -----------------------------------------------
 
-\section*{Bibliography}
+\end{multicols}
+
+\begin{multicols}{2}
+[
+\begin{centering}
+  \section*{\normalsize{\normalfont{REFERENCES}}}
+\end{centering}
 % \hfuzz=1.5pt
+\vspace{-0.9cm}
+]
 \printbibliography[heading=none]
 
 \end{multicols}

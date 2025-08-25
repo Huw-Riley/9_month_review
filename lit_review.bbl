@@ -21,18 +21,16 @@
   \datalist[entry]{none/global//global/global/global}
     \entry{ISM}{misc}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=250705693b4e366f618ffff7cdc69889}{%
+        {{hash=250705693b4e366f618ffff7cdc69889}{%
            family={{Klessen}},
            familyi={K\bibinitperiod},
            given={Ralf\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=108b07949bf08034ae65d7ce8796f24a}{%
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=108b07949bf08034ae65d7ce8796f24a}{%
            family={{Glover}},
            familyi={G\bibinitperiod},
            given={Simon\bibnamedelima C.\bibnamedelimi O.},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim O\bibinitperiod},
-           givenun=0}}%
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
       }
       \strng{namehash}{4e071097e3b72e3e329315ca23cba641}
       \strng{fullhash}{4e071097e3b72e3e329315ca23cba641}
@@ -48,30 +46,42 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Saas-Fee Advanced Course}
       \field{month}{1}
       \field{title}{{Physical Processes in the Interstellar Medium}}
+      \field{volume}{43}
       \field{year}{2016}
+      \field{pages}{85}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/978-3-662-47890-5_2
+      \endverb
+      \verb{eprint}
+      \verb 1412.5182
+      \endverb
+      \keyw{Physics,Astrophysics - Astrophysics of Galaxies}
     \endentry
     \entry{Chemistry}{book}{}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=b0fcbfd1e3a0d8b7ec79337952622330}{%
-           family={Tielens},
+        {{hash=c82d6f9bfc5668c144826ffca6e9a59b}{%
+           family={{Tielens}},
            familyi={T\bibinitperiod},
-           given={Alexander\bibnamedelima GGM},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=1}}%
+           given={A.\bibnamedelimi G.\bibnamedelimi G.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{fullhash}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{fullhashraw}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{bibnamehash}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{authorbibnamehash}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{authornamehash}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{authorfullhash}{b0fcbfd1e3a0d8b7ec79337952622330}
-      \strng{authorfullhashraw}{b0fcbfd1e3a0d8b7ec79337952622330}
+      \strng{namehash}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{fullhash}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{fullhashraw}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{bibnamehash}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{authorbibnamehash}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{authornamehash}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{authorfullhash}{c82d6f9bfc5668c144826ffca6e9a59b}
+      \strng{authorfullhashraw}{c82d6f9bfc5668c144826ffca6e9a59b}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{extradatescope}{labelyear}
@@ -83,18 +93,16 @@
     \endentry
     \entry{Heating_Cooling}{article}{}{}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=c82d6f9bfc5668c144826ffca6e9a59b}{%
+        {{hash=c82d6f9bfc5668c144826ffca6e9a59b}{%
            family={{Tielens}},
            familyi={T\bibinitperiod},
            given={A.\bibnamedelimi G.\bibnamedelimi G.\bibnamedelimi M.},
-           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=ad6c4ad9c637a256312b9acd578b077f}{%
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ad6c4ad9c637a256312b9acd578b077f}{%
            family={{Hollenbach}},
            familyi={H\bibinitperiod},
            given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
+           giveni={D\bibinitperiod}}}%
       }
       \strng{namehash}{fdb4ad343b5b83eb897f0f61bb78c504}
       \strng{fullhash}{fdb4ad343b5b83eb897f0f61bb78c504}
@@ -117,7 +125,432 @@
       \field{year}{1985}
       \field{pages}{722\bibrangedash 746}
       \range{pages}{25}
+      \verb{doi}
+      \verb 10.1086/163111
+      \endverb
       \keyw{Astronomical Models,Gas Ionization,Molecular Clouds,Nebulae,Photodissociation,Abundance,Brightness Temperature,Emission Spectra,Far Ultraviolet Radiation,Fine Structure,Gas Density,Gas Temperature,H Ii Regions,Infrared Spectra,Astrophysics}
+    \endentry
+    \entry{Cooling_Heating}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9b5b03f7f2ae05e3d3bb0620aafb9112}{%
+           family={{Hollenbach}},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=77cb6d7fee046380d5ffaeb92da76ede}{%
+           family={{McKee}},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{fullhash}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{fullhashraw}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{bibnamehash}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{authorbibnamehash}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{authornamehash}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{authorfullhash}{609c8c311b7bc724c1a3899562c91a43}
+      \strng{authorfullhashraw}{609c8c311b7bc724c1a3899562c91a43}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{7}
+      \field{title}{{Molecule Formation and Infrared Emission in Fast Interstellar Shocks. III. Results for J Shocks in Molecular Clouds}}
+      \field{volume}{342}
+      \field{year}{1989}
+      \field{pages}{306}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/167595
+      \endverb
+      \keyw{Emission Spectra,Infrared Sources (Astronomy),Interstellar Chemistry,Molecular Clouds,Shock Fronts,Cosmic Rays,Fine Structure,Herbig-Haro Objects,Molecular Gases,Supernova Remnants,Water Masers,Astrophysics,INTERSTELLAR: GRAINS,INTERSTELLAR: MOLECULES,MOLECULAR PROCESSES,SHOCK WAVES}
+    \endentry
+    \entry{CO_1_0}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=af7d6f88b64a63492f826f89cf34c05b}{%
+           family={{Winnewisser}},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=63891c890fed6db296d7f4f552cf3e38}{%
+           family={{Belov}},
+           familyi={B\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=0727f0e83df7f134e8664624b081b829}{%
+           family={{Klaus}},
+           familyi={K\bibinitperiod},
+           given={Th.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0103f9479a3ff8aeca01c5dab42d95dc}{%
+           family={{Schieder}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a96ab4edf1e35a4db8bda18a51459c0}
+      \strng{fullhash}{4abe8ca2604f2dd6c5c8b4f00ce5e49f}
+      \strng{fullhashraw}{4abe8ca2604f2dd6c5c8b4f00ce5e49f}
+      \strng{bibnamehash}{0a96ab4edf1e35a4db8bda18a51459c0}
+      \strng{authorbibnamehash}{0a96ab4edf1e35a4db8bda18a51459c0}
+      \strng{authornamehash}{0a96ab4edf1e35a4db8bda18a51459c0}
+      \strng{authorfullhash}{4abe8ca2604f2dd6c5c8b4f00ce5e49f}
+      \strng{authorfullhashraw}{4abe8ca2604f2dd6c5c8b4f00ce5e49f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Spectroscopy}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{{Sub-Doppler Measurements on the Rotational Transitions of Carbon Monoxide}}
+      \field{volume}{184}
+      \field{year}{1997}
+      \field{pages}{468\bibrangedash 472}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1006/jmsp.1997.7341
+      \endverb
+    \endentry
+    \entry{CO_cooling}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=108b07949bf08034ae65d7ce8796f24a}{%
+           family={{Glover}},
+           familyi={G\bibinitperiod},
+           given={Simon\bibnamedelima C.\bibnamedelimi O.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=49433b29e6d0959e7171594937a856a3}{%
+           family={{Clark}},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{fullhash}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{fullhashraw}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{bibnamehash}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{authorbibnamehash}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{authornamehash}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{authorfullhash}{1a6b523fd523c2601b7621595f81b6c2}
+      \strng{authorfullhashraw}{1a6b523fd523c2601b7621595f81b6c2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{Is molecular gas necessary for star formation?}}
+      \field{volume}{421}
+      \field{year}{2012}
+      \field{pages}{9\bibrangedash 19}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2011.19648.x
+      \endverb
+      \verb{eprint}
+      \verb 1105.3073
+      \endverb
+      \keyw{stars: formation,ISM: clouds,ISM: molecules,galaxies: ISM,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{H2_formation}{article}{}{}
+      \name{author}{15}{}{%
+        {{hash=010f7fbc179059cb9a6c5f250c324909}{%
+           family={{Wakelam}},
+           familyi={W\bibinitperiod},
+           given={Valentine},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3c84307495643508caea91265787660f}{%
+           family={{Bron}},
+           familyi={B\bibinitperiod},
+           given={Emeric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d4776accb955d305e6bc5372ebc2592e}{%
+           family={{Cazaux}},
+           familyi={C\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa9e4d78decdfde4f9abdb581e7180fa}{%
+           family={{Dulieu}},
+           familyi={D\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=01e7ceea482b2754ed8166616dba9c78}{%
+           family={{Gry}},
+           familyi={G\bibinitperiod},
+           given={Cécile},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d39b44ab2fc8d3013d13618db0c30264}{%
+           family={{Guillard}},
+           familyi={G\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=536860900ee47cd71f0ca8dabdef4c5e}{%
+           family={{Habart}},
+           familyi={H\bibinitperiod},
+           given={Emilie},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1f3b7a9315f834b8ff6019f39b5404a8}{%
+           family={{Hornek{æ}r}},
+           familyi={H\bibinitperiod},
+           given={Liv},
+           giveni={L\bibinitperiod}}}%
+        {{hash=76a6b5112bc1c80294f502b6f85e13cd}{%
+           family={{Morisset}},
+           familyi={M\bibinitperiod},
+           given={Sabine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d15673378538b0ce26e3ff5043917b77}{%
+           family={{Nyman}},
+           familyi={N\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2dd143cb56330e001c271b9d08009488}{%
+           family={{Pirronello}},
+           familyi={P\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ed41dce0f3c4af5a0f41cedec52490a4}{%
+           family={{Price}},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=206ed3821cac4052473d7cd8dcfb085a}{%
+           family={{Valdivia}},
+           familyi={V\bibinitperiod},
+           given={Valeska},
+           giveni={V\bibinitperiod}}}%
+        {{hash=21d28dbcfb6c128303826e02764cbb6c}{%
+           family={{Vidali}},
+           familyi={V\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9f3434d03775c4a20f72b1ddb4294dcf}{%
+           family={{Watanabe}},
+           familyi={W\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8e1251565ba82544fa53e9fd930e5b8}
+      \strng{fullhash}{74ccaafa35e6f0974292d7d31c4a5328}
+      \strng{fullhashraw}{74ccaafa35e6f0974292d7d31c4a5328}
+      \strng{bibnamehash}{f8e1251565ba82544fa53e9fd930e5b8}
+      \strng{authorbibnamehash}{f8e1251565ba82544fa53e9fd930e5b8}
+      \strng{authornamehash}{f8e1251565ba82544fa53e9fd930e5b8}
+      \strng{authorfullhash}{74ccaafa35e6f0974292d7d31c4a5328}
+      \strng{authorfullhashraw}{74ccaafa35e6f0974292d7d31c4a5328}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Molecular Astrophysics}
+      \field{month}{12}
+      \field{title}{{H$_{2}$ formation on interstellar dust grains: The viewpoints of theory, experiments, models and observations}}
+      \field{volume}{9}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 36}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1016/j.molap.2017.11.001
+      \endverb
+      \verb{eprint}
+      \verb 1711.10568
+      \endverb
+      \keyw{Astrochemistry,Molecular hydrogen,Grain surface chemistry,Interstellar medium,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{dust_grain_experiment}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=d618488de9319ae6cbfb067ed23f84ac}{%
+           family={{Katz}},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=54696d4726852dd59834f8087e8981f9}{%
+           family={{Furman}},
+           familyi={F\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d16e55c3840023a5045e4bd75df3e437}{%
+           family={{Biham}},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=75da83c12aa0a2ecec598e8621c3e123}{%
+           family={{Pirronello}},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=ea3029cb3f4f632d30ba790d6020e638}{%
+           family={{Vidali}},
+           familyi={V\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf4b146e8fd593b7af022743c23d37c4}
+      \strng{fullhash}{f9402d50ee938375d652abc33b6dd58b}
+      \strng{fullhashraw}{f9402d50ee938375d652abc33b6dd58b}
+      \strng{bibnamehash}{bf4b146e8fd593b7af022743c23d37c4}
+      \strng{authorbibnamehash}{bf4b146e8fd593b7af022743c23d37c4}
+      \strng{authornamehash}{bf4b146e8fd593b7af022743c23d37c4}
+      \strng{authorfullhash}{f9402d50ee938375d652abc33b6dd58b}
+      \strng{authorfullhashraw}{f9402d50ee938375d652abc33b6dd58b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{Molecular Hydrogen Formation on Astrophysically Relevant Surfaces}}
+      \field{volume}{522}
+      \field{year}{1999}
+      \field{pages}{305\bibrangedash 312}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1086/307642
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9906071
+      \endverb
+      \keyw{ISM: DUST,EXTINCTION,ISM: ABUNDANCES,ISM: MOLECULES,MOLECULAR PROCESSES,ISM: Dust,Extinction,ISM: Abundances,ISM: Molecules,Molecular Processes,Astrophysics,Physics - Chemical Physics}
+    \endentry
+    \entry{CO_formation}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e74a107e0e6279178ca2a7c2e5f87a63}{%
+           family={{Glover}},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi C.\bibnamedelimi O.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=6e0bd58906a87c932a1554dae7913e79}{%
+           family={{Federrath}},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=148b07e95a870f3a6f2e46c4ca24ee15}{%
+           family={{Mac Low}},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi -M.},
+           giveni={M\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
+        {{hash=f9268dbbb0c0ce22bbdae0c316da85fb}{%
+           family={{Klessen}},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{edeb40e0b5a96d6256a3db908f038bd1}
+      \strng{fullhash}{df58b600b3b007a3a19eace74e80b5cc}
+      \strng{fullhashraw}{df58b600b3b007a3a19eace74e80b5cc}
+      \strng{bibnamehash}{edeb40e0b5a96d6256a3db908f038bd1}
+      \strng{authorbibnamehash}{edeb40e0b5a96d6256a3db908f038bd1}
+      \strng{authornamehash}{edeb40e0b5a96d6256a3db908f038bd1}
+      \strng{authorfullhash}{df58b600b3b007a3a19eace74e80b5cc}
+      \strng{authorfullhashraw}{df58b600b3b007a3a19eace74e80b5cc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.SR}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{{Modelling CO formation in the turbulent interstellar medium}}
+      \field{volume}{404}
+      \field{year}{2010}
+      \field{pages}{2\bibrangedash 29}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2009.15718.x
+      \endverb
+      \verb{eprint}
+      \verb 0907.4081
+      \endverb
+      \keyw{astrochemistry,molecular processes,methods: numerical,ISM: clouds,ISM: molecules,Astrophysics - Solar and Stellar Astrophysics}
+    \endentry
+    \entry{N2H_plus_density}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fbd0bf18883d5015daf5b5b73603b95a}{%
+           family={{Kauffmann}},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=10a955b6998c96170a4de2a1f6a8cb4c}{%
+           family={{Goldsmith}},
+           familyi={G\bibinitperiod},
+           given={Paul\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=e40686a3bfbc9ee9ae3116aacfbfbef0}{%
+           family={{Melnick}},
+           familyi={M\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=34e4452a957015ce8b0e9f286ad81f85}{%
+           family={{Tolls}},
+           familyi={T\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e9e889f97d80b10f70526331d0f24c5b}{%
+           family={{Guzman}},
+           familyi={G\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod}}}%
+        {{hash=01e6d9bf43ef5f2bc65408bc4b95db69}{%
+           family={{Menten}},
+           familyi={M\bibinitperiod},
+           given={Karl\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7ad5ea34d6dc7726c5ec974bf613932}
+      \strng{fullhash}{d1fbedf45dfed5ac5f5d49bf13c7a2cf}
+      \strng{fullhashraw}{d1fbedf45dfed5ac5f5d49bf13c7a2cf}
+      \strng{bibnamehash}{b7ad5ea34d6dc7726c5ec974bf613932}
+      \strng{authorbibnamehash}{b7ad5ea34d6dc7726c5ec974bf613932}
+      \strng{authornamehash}{b7ad5ea34d6dc7726c5ec974bf613932}
+      \strng{authorfullhash}{d1fbedf45dfed5ac5f5d49bf13c7a2cf}
+      \strng{authorfullhashraw}{d1fbedf45dfed5ac5f5d49bf13c7a2cf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{L5}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\aap}
+      \field{month}{9}
+      \field{title}{{Molecular Line Emission as a Tool for Galaxy Observations (LEGO). I. HCN as a tracer of moderate gas densities in molecular clouds and galaxies}}
+      \field{volume}{605}
+      \field{year}{2017}
+      \field{pages}{L5}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201731123
+      \endverb
+      \verb{eprint}
+      \verb 1707.05352
+      \endverb
+      \keyw{stars: formation,ISM: clouds,ISM: molecules,galaxies: evolution,galaxies: ISM,galaxies: star formation,Astrophysics - Astrophysics of Galaxies}
     \endentry
   \enddatalist
 \endrefsection
