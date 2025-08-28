@@ -552,6 +552,36 @@
       \endverb
       \keyw{stars: formation,ISM: clouds,ISM: molecules,galaxies: evolution,galaxies: ISM,galaxies: star formation,Astrophysics - Astrophysics of Galaxies}
     \endentry
+    \entry{SF}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=565862670765a85f6dfddb4f8c8d89c2}{%
+           family={{Stahler}},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ace4069c43ade8a2ef007a81b8bd4669}{%
+           family={{Palla}},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{fullhash}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{fullhashraw}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{bibnamehash}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{authorbibnamehash}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{authornamehash}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{authorfullhash}{f4c3e57070c9433a4792c98f0a636851}
+      \strng{authorfullhashraw}{f4c3e57070c9433a4792c98f0a636851}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Formation of Stars}}
+      \field{year}{2004}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
