@@ -24,7 +24,8 @@ sorting=none
   \clearfield{month}
   \clearfield{volume}
   \clearfield{number}
-  \clearfield{pages}
+  \clearfield{eid}
+  % \clearfield{pages}
   \clearfield{doi}
   \clearfield{archivePrefix}
   \clearfield{eprint}
@@ -33,6 +34,10 @@ sorting=none
   \clearfield{adsnote}
 }
 \renewbibmacro{in:}{}
+\DefineBibliographyStrings{english}{%
+  page             = {},
+  pages            = {},
+} 
 \renewcommand*{\bibfont}{\normalfont\small}
 
 \usepackage{hyperref}			
@@ -102,7 +107,6 @@ Overall scientific questions.
     \item Jeans collapse a model for star formation. 
     \item IMF / CMF.\ How the high mass end changes. SF across different environments.
     \item Quasistatic turbulent core fragmentation as a model for star formation.
-    \item Differences in methods.
     \item (Nico and Alessio) Literature on decoupling cores from clumps. We would like to know at what stage the gas decouples.
     \item CHIMPS paper and other extragalactic attempts at this sort of work.
 \end{itemize}
@@ -119,7 +123,7 @@ Overall scientific questions.
 \par\noindent \autoref{eq:1} is the rearranged form of 2.38 in\ \cite{Chemistry}. The formula comes about by assuming LTE and that the number density is much less than the critical density. $g_u$ and $g_l$ are statistical weihts of the energy states, $A_{ul}$ is the Einstein A coefficient of spontaneous emission, $E_{ul}$ is the energy of the transition and $n_{l}$ is the number density of the lower state. 
 
 \begin{equation}
-    \Lambda_{H\!I} = 7.3\times10^{-19}\text{exp}\left(\dfrac{-118400}{T}\right)n_e n_H\label{eq:2}
+    \Lambda_{H\!I} = 7.3\times10^{-19}e^{-118400/T}n_e n_H\label{eq:2}
     \tag{2}
 \end{equation}
 
@@ -127,7 +131,7 @@ Overall scientific questions.
 \smallskip
 \par\noindent Once there is gas at the typical temperatures of the CMM, molecular hydrogen can begin to form. Molecular hydrogen should form directly between two atoms of hydrogen but the Einstein A coefficient is too small for the process to allow for a photon to be emitted during their collision \parencite{H2_formation}. This means that molecular hydrogen cannot form efficiently this way, therefore another mechanism is required to get the amount of molecular hydrogen expected. The process involves atomic hydrogen sticking to a dust grain and potentially colliding with another atom of hydrogen allowing for the recombination of molecular hydrogen. The energy produced by this is enough to break the bonds between the dust grain and the molecule of hydrogen, allowing for it to return to the CMM \parencite{H2_formation}. This has been confirmed experimentally using various dust grain substitues made of carbon or silicates.\ \cite{dust_grain_experiment} find that the peak efficiency of the recombination occurs below $20K$ for both types of grain. The formation of CO is very complex \parencite[see][]{CO_formation} and can involve different pathways, the simplest of which is the formation from a carbon atom and a hydroxyl radical. Even though it is thought that the gas being in a molecular state is not nessecary for star formation, the cloud being able to shield itself from the ISRF is paramount to the formation of both stars and molecular gas \parencite{CO_cooling}. They find that a cloud of atomic gas is still capable of forming stars at the same rate as if molecular gas is able to form. This however does not change the fact that molecular hydrogen still traces star formation, it just may not trace all star formation. 
 \smallskip
-\par\noindent Tracing molecular gas is important because it allows for the understanding of the steps that lead to star formation. CO is regarded as a good tracer of molecular gas for its abundance in molecular clouds and spontaeous low energy transitions, like the one described above. The idea is to trace the more abundant molecular hydrogen, which is not directly possible due to its lack of emission at the typical temperatures of the CMM.\ The lowest possible rotational transition of molecular hydrogen is at an energy of $510K$ \parencite{H2_formation}. CO has been the gold standard when it comes to tracing molecular hydrogen, but tracers like HCN or $N_2H^+$ have been fund to trace the dnese gas muich more effectively than CO.\ $N_2H^+$ is almost always being detected above column densties of $10^{22} cm^{-2}$ \parencite{N2H_plus_density}, meaning it is much better at tracing the clumps where stars are likely to be forming.
+\par\noindent Tracing molecular gas is important because it allows for the understanding of the steps that lead to star formation. CO is regarded as a good tracer of molecular gas for its abundance in molecular clouds and spontaeous low energy transitions, like the one described above. The idea is to trace the more abundant molecular hydrogen, which is not directly possible due to its lack of emission at the typical temperatures of the CMM.\ The lowest possible rotational transition of molecular hydrogen is at an energy of $510K$ \parencite{H2_formation}. CO has been the gold standard when it comes to tracing molecular hydrogen, but tracers like HCN or $N_2H^+$ have been found to trace the dnese gas muich more effectively than CO\parencite{N2H_plus}.\ $N_2H^+$ is almost always being detected above column densties of $10^{22} cm^{-2}$ \parencite{N2H_plus_density}, meaning it is much better at tracing the clumps where stars are likely to be forming.
 \smallskip
 \par\noindent Regions of the ISM that contain the CMM are also known as molecular clouds. These clouds are the densest constituents of the ISM, the collapse of which leads to star formation. For a cloud to collapse the gravitational force pulling the gas together must overcome that of the internal pressure of the gas. Hydrostatic equilibrium is the point at which both forces cancel one another out. This allows for the derivation of the mass above which a spherical system would collapse, knwon as the Jeans mass.
 
@@ -143,9 +147,11 @@ Overall scientific questions.
     \tag{4}
 \end{equation}
 
-\par\noindent \autoref{eq:4} appears as 9.16 in\ \cite{SF}. $P_o$ is the external pressure on the cloud. There are several mechanisms that affect star formation that these equations do not account for. Magnetic fields 
+\par\noindent \autoref{eq:4} appears as 9.16 in\ \cite{SF}. $P_o$ is the external pressure on the cloud. There are several mechanisms that affect star formation that these equations do not account for. Magnetic fields oppose the gravitational collapse of clouds, slowing or stopping the collapse of clouds\ \parencite{B_fields}. This allows more gas to be accreted before collapse leading to higher mass star formation. Stellar feedback strips the diffuse gas from the cloud slowing their growth but allowing the dense centres to continue to be star forming \parencite{Stellar_Feedback}. It can also cause the destruction of the host cloud.\ \cite{Stellar_Feedback} also found that stellar feedback likely breaks apart larger clouds into smaller clouds. Protostellar radiative feedback stops fragment formation causing most of the gas to be accreted onto a few objects leading to higher mass star formation \parencite{Protostellar_Feedback}. Cloud-cloud collisions between both atomic and molecular clouds facilitates the formation of massive molecular cloud cores, making them the dominant mechanism for forming high mass stars. Additionally, there is observational evidence that they are responsible for starbursts (e.g.\ the Antenna galaxies) \parencite{Cloud_cloud_collisions}.
 \smallskip
-\par\noindent This is not the only thoery of star formation – Quasistatic turbulent flows
+\par\noindent As a cloud collapses, the Jeans mass scales proportionally with temperature and density $\left(M_J \propto \rho^{-1/2}T^{3/2}\right)$, as shown by \autoref{eq:3}. During gravitational collapse the density always increases and providing the gas is isothermal, the Jeans mass decreases as the density increases \parencite{isothermal_frag}. Therefore, sections of the collapsing cloud becom Jeans unstable and begin gravitational collapse causing multiple collapsing regions. These collapsing regions can go on to fragment again. Eventually the density increases so much so heat is unable to radiate away and cooling becomes unable to keep the gas isothermal, therefore temperature increases. Assuming the collapsing cloud acts like a polytrope, it will follow the equation of state $\left(P = K\rho^{\gamma}\right)$, where $\gamma$ is the adiabatic index \parencite{adiabatic_frag}. If heat cannot radiate away then the collapse can be considered adiabatic, so the temperature is now a functin of density $\left(T = K\rho^{\gamma - 1}\right)$. This now means that the Jeans mass only scales proportionally with density $\left(M_J \propto \rho^{\left(3/2\right)\left(\gamma-4/3\right)}\right)$. In molecular clouds, the gas is primarily diatomic or monatomic which have 5 and 3 degrees of freedom, which gives them adiabatic indicies of $5/3$ and $7/5$, respectively $\left(\gamma=1+2/d.o.f.\right)$. Both these indicies result in a direct proportionally between the Jeans mass and density, causing fragmentation to cease.
+\smallskip
+\par\noindent The above picture of fragmentation is not complete as it does not take into account turbulence and magnetic fields. Magnetic fields as described above stop fragmentation and so the theory of ambipolar diffusion was introduced, which allow mass to move across field lines. Ambipolar diffusion
 
 % -----------------------------------------------
 

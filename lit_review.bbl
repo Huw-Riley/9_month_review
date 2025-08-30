@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{ISM}{misc}{}{}
+    \entry{ISM}{article}{}{}
       \name{author}{2}{}{%
         {{hash=250705693b4e366f618ffff7cdc69889}{%
            family={{Klessen}},
@@ -53,7 +53,7 @@
       \field{title}{{Physical Processes in the Interstellar Medium}}
       \field{volume}{43}
       \field{year}{2016}
-      \field{pages}{85}
+      \field{pages}{9}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1007/978-3-662-47890-5_2
@@ -90,6 +90,8 @@
       \field{labeltitlesource}{title}
       \field{title}{The physics and chemistry of the interstellar medium}
       \field{year}{2005}
+      \field{pages}{48\bibrangessep 58}
+      \range{pages}{2}
     \endentry
     \entry{Heating_Cooling}{article}{}{}
       \name{author}{2}{}{%
@@ -123,8 +125,8 @@
       \field{title}{{Photodissociation regions. I. Basic model.}}
       \field{volume}{291}
       \field{year}{1985}
-      \field{pages}{722\bibrangedash 746}
-      \range{pages}{25}
+      \field{pages}{736\bibrangedash 739}
+      \range{pages}{4}
       \verb{doi}
       \verb 10.1086/163111
       \endverb
@@ -162,7 +164,7 @@
       \field{title}{{Molecule Formation and Infrared Emission in Fast Interstellar Shocks. III. Results for J Shocks in Molecular Clouds}}
       \field{volume}{342}
       \field{year}{1989}
-      \field{pages}{306}
+      \field{pages}{333}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1086/167595
@@ -212,8 +214,8 @@
       \field{title}{{Sub-Doppler Measurements on the Rotational Transitions of Carbon Monoxide}}
       \field{volume}{184}
       \field{year}{1997}
-      \field{pages}{468\bibrangedash 472}
-      \range{pages}{5}
+      \field{pages}{470}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.1006/jmsp.1997.7341
       \endverb
@@ -253,8 +255,8 @@
       \field{title}{{Is molecular gas necessary for star formation?}}
       \field{volume}{421}
       \field{year}{2012}
-      \field{pages}{9\bibrangedash 19}
-      \range{pages}{11}
+      \field{pages}{16\bibrangessep 18}
+      \range{pages}{2}
       \verb{doi}
       \verb 10.1111/j.1365-2966.2011.19648.x
       \endverb
@@ -362,8 +364,8 @@
       \field{title}{{H$_{2}$ formation on interstellar dust grains: The viewpoints of theory, experiments, models and observations}}
       \field{volume}{9}
       \field{year}{2017}
-      \field{pages}{1\bibrangedash 36}
-      \range{pages}{36}
+      \field{pages}{1\bibrangessep 2\bibrangessep 30}
+      \range{pages}{3}
       \verb{doi}
       \verb 10.1016/j.molap.2017.11.001
       \endverb
@@ -422,8 +424,8 @@
       \field{title}{{Molecular Hydrogen Formation on Astrophysically Relevant Surfaces}}
       \field{volume}{522}
       \field{year}{1999}
-      \field{pages}{305\bibrangedash 312}
-      \range{pages}{8}
+      \field{pages}{309}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.1086/307642
       \endverb
@@ -473,7 +475,7 @@
       \field{eprinttype}{arXiv}
       \field{journaltitle}{\mnras}
       \field{month}{5}
-      \field{number}{1}
+      \field{number}{25}
       \field{title}{{Modelling CO formation in the turbulent interstellar medium}}
       \field{volume}{404}
       \field{year}{2010}
@@ -487,7 +489,7 @@
       \endverb
       \keyw{astrochemistry,molecular processes,methods: numerical,ISM: clouds,ISM: molecules,Astrophysics - Solar and Stellar Astrophysics}
     \endentry
-    \entry{N2H_plus_density}{article}{}{}
+    \entry{N2H_plus}{article}{}{}
       \name{author}{6}{}{%
         {{hash=fbd0bf18883d5015daf5b5b73603b95a}{%
            family={{Kauffmann}},
@@ -542,7 +544,7 @@
       \field{title}{{Molecular Line Emission as a Tool for Galaxy Observations (LEGO). I. HCN as a tracer of moderate gas densities in molecular clouds and galaxies}}
       \field{volume}{605}
       \field{year}{2017}
-      \field{pages}{L5}
+      \field{pages}{4}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1051/0004-6361/201731123
@@ -551,6 +553,61 @@
       \verb 1707.05352
       \endverb
       \keyw{stars: formation,ISM: clouds,ISM: molecules,galaxies: evolution,galaxies: ISM,galaxies: star formation,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{N2H_plus_density}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d896a32cf52a9a15e20d65e14ea2610d}{%
+           family={{Fehér}},
+           familyi={F\bibinitperiod},
+           given={Orsolya},
+           giveni={O\bibinitperiod}}}%
+        {{hash=0e1c9db03b29915b4eec13d0507c8b73}{%
+           family={{Ragan}},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=06fe3214d294d8ab9459e6982f5388c9}{%
+           family={{Priestley}},
+           familyi={P\bibinitperiod},
+           given={F.\bibnamedelimi D.},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=dcc9eae912f20c024929c58c44898f72}{%
+           family={{Clark}},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb2b33a9f95b0581265fe8ec24472c03}
+      \strng{fullhash}{0312511503bccb6a7e8867f6d8488546}
+      \strng{fullhashraw}{0312511503bccb6a7e8867f6d8488546}
+      \strng{bibnamehash}{eb2b33a9f95b0581265fe8ec24472c03}
+      \strng{authorbibnamehash}{eb2b33a9f95b0581265fe8ec24472c03}
+      \strng{authornamehash}{eb2b33a9f95b0581265fe8ec24472c03}
+      \strng{authorfullhash}{0312511503bccb6a7e8867f6d8488546}
+      \strng{authorfullhashraw}{0312511503bccb6a7e8867f6d8488546}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{{Dense gas tracers in and between spiral arms: from Giant Molecular Filaments to star-forming clumps}}
+      \field{volume}{540}
+      \field{year}{2025}
+      \field{pages}{3448}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/mnras/staf909
+      \endverb
+      \verb{eprint}
+      \verb 2505.24711
+      \endverb
+      \keyw{ISM: molecules,ISM: structure,galaxies: star formation,Astrophysics of Galaxies}
     \endentry
     \entry{SF}{book}{}{}
       \name{author}{2}{}{%
@@ -581,6 +638,290 @@
       \field{labeltitlesource}{title}
       \field{title}{{The Formation of Stars}}
       \field{year}{2004}
+      \field{pages}{247\bibrangessep 249}
+      \range{pages}{2}
+    \endentry
+    \entry{B_fields}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f6cff485ba815728837c664ac62202b8}{%
+           family={{Krasnopolsky}},
+           familyi={K\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c5d64de3708f37f8ad14b3977b1ce721}{%
+           family={{Gammie}},
+           familyi={G\bibinitperiod},
+           given={Charles\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{fullhash}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{fullhashraw}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{bibnamehash}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{authorbibnamehash}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{authornamehash}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{authorfullhash}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \strng{authorfullhashraw}{c556b8b77f7d8ab37dd8549d63bf8dfb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{{Nonlinear Criterion for the Stability of Molecular Clouds}}
+      \field{volume}{635}
+      \field{year}{2005}
+      \field{pages}{1132}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/497561
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0512629
+      \endverb
+      \keyw{Instabilities,ISM: Clouds,ISM: Molecules,Stars: Formation,Astrophysics}
+    \endentry
+    \entry{Stellar_Feedback}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=46936c8334819f53f80578a0ec8089fd}{%
+           family={{Watkins}},
+           familyi={W\bibinitperiod},
+           given={E.\bibnamedelimi J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1e52c68b7743a3dbb79c62cd71439269}{%
+           family={{Peretto}},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=df7705c86d11e4545e6bc7a999733403}{%
+           family={{Rigby}},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8bfeb6e92c0baf312a4de8b9e40a376c}{%
+           family={{Smith}},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fa0c039a4a30e6c81f3c9ce1e9146644}{%
+           family={{Kreckel}},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a13280d7fe6ebeba4a766b6182c2fa18}{%
+           family={{Fuller}},
+           familyi={F\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d34dbf3359407c14130cf93e1cfa8e78}
+      \strng{fullhash}{7f376471322956ba77f055a8cf0c1294}
+      \strng{fullhashraw}{7f376471322956ba77f055a8cf0c1294}
+      \strng{bibnamehash}{d34dbf3359407c14130cf93e1cfa8e78}
+      \strng{authorbibnamehash}{d34dbf3359407c14130cf93e1cfa8e78}
+      \strng{authornamehash}{d34dbf3359407c14130cf93e1cfa8e78}
+      \strng{authorfullhash}{7f376471322956ba77f055a8cf0c1294}
+      \strng{authorfullhashraw}{7f376471322956ba77f055a8cf0c1294}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{{Evolutionary growth of molecular clouds as traced by their infrared bright fraction}}
+      \field{volume}{536}
+      \field{year}{2025}
+      \field{pages}{2818}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/mnras/stae2745
+      \endverb
+      \verb{eprint}
+      \verb 2409.00205
+      \endverb
+      \keyw{Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{Protostellar_Feedback}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8db00607e3fb48eb27a9307298599a15}{%
+           family={{Krumholz}},
+           familyi={K\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0642102aaa8971f418ac567286c0df8a}{%
+           family={{Klein}},
+           familyi={K\bibinitperiod},
+           given={Richard\bibnamedelima I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=77cb6d7fee046380d5ffaeb92da76ede}{%
+           family={{McKee}},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{fullhash}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{fullhashraw}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{bibnamehash}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{authorbibnamehash}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{authornamehash}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{authorfullhash}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \strng{authorfullhashraw}{32eed7885d3fa29ac4beafa848cbf1a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{Radiation-Hydrodynamic Simulations of Collapse and Fragmentation in Massive Protostellar Cores}}
+      \field{volume}{656}
+      \field{year}{2007}
+      \field{pages}{959}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/510664
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0609798
+      \endverb
+      \keyw{Accretion,Accretion Disks,Equation of State,ISM: Clouds,Methods: Numerical,Radiative Transfer,Stars: Formation,Astrophysics}
+    \endentry
+    \entry{Cloud_cloud_collisions}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=2cc26c97af1ebcc6de8d0e7eeaae0864}{%
+           family={{Fukui}},
+           familyi={F\bibinitperiod},
+           given={Yasuo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5e54b510d85b8db9e7bcb3a96915e3d1}{%
+           family={{Habe}},
+           familyi={H\bibinitperiod},
+           given={Asao},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af69282f041ea916f71505f142785679}{%
+           family={{Inoue}},
+           familyi={I\bibinitperiod},
+           given={Tsuyoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5a5f41a7be7c035980c3bef2565de548}{%
+           family={{Enokiya}},
+           familyi={E\bibinitperiod},
+           given={Rei},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d426e1141f393b224b312f173f0eeb06}{%
+           family={{Tachihara}},
+           familyi={T\bibinitperiod},
+           given={Kengo},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{74ab73b67a5b1fffa0a11d438d9ae24a}
+      \strng{fullhash}{2f6869b53adeb61f5c4452437cfa159c}
+      \strng{fullhashraw}{2f6869b53adeb61f5c4452437cfa159c}
+      \strng{bibnamehash}{74ab73b67a5b1fffa0a11d438d9ae24a}
+      \strng{authorbibnamehash}{74ab73b67a5b1fffa0a11d438d9ae24a}
+      \strng{authornamehash}{74ab73b67a5b1fffa0a11d438d9ae24a}
+      \strng{authorfullhash}{2f6869b53adeb61f5c4452437cfa159c}
+      \strng{authorfullhashraw}{2f6869b53adeb61f5c4452437cfa159c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\pasj}
+      \field{month}{1}
+      \field{title}{{Cloud-cloud collisions and triggered star formation}}
+      \field{volume}{73}
+      \field{year}{2021}
+      \field{pages}{27}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/pasj/psaa103
+      \endverb
+      \verb{eprint}
+      \verb 2009.05077
+      \endverb
+      \keyw{ISM: clouds,ISM: kinematics and dynamics,ISM: molecules,stars: formation,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{isothermal_frag}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a8052856e5047890ca3b6b1d47093c33}{%
+           family={{Ward-Thompson}},
+           familyi={W\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ba606c67680ab85e78ecc4b3caf13e5e}{%
+           family={{Whitworth}},
+           familyi={W\bibinitperiod},
+           given={Anthony\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4317b02908483c05af6325085380daac}
+      \strng{fullhash}{4317b02908483c05af6325085380daac}
+      \strng{fullhashraw}{4317b02908483c05af6325085380daac}
+      \strng{bibnamehash}{4317b02908483c05af6325085380daac}
+      \strng{authorbibnamehash}{4317b02908483c05af6325085380daac}
+      \strng{authornamehash}{4317b02908483c05af6325085380daac}
+      \strng{authorfullhash}{4317b02908483c05af6325085380daac}
+      \strng{authorfullhashraw}{4317b02908483c05af6325085380daac}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{An Introduction to Star Formation}}
+      \field{year}{2011}
+      \field{pages}{99}
+      \range{pages}{1}
+    \endentry
+    \entry{adiabatic_frag}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=35d3d9427b7a374ad8b1d3c38966d032}{%
+           family={{Chieze}},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{fullhash}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{fullhashraw}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{bibnamehash}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{authorbibnamehash}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{authornamehash}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{authorfullhash}{35d3d9427b7a374ad8b1d3c38966d032}
+      \strng{authorfullhashraw}{35d3d9427b7a374ad8b1d3c38966d032}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aap}
+      \field{month}{1}
+      \field{title}{{The fragmentation of molecular clouds. I - The mass-radius-velocity dispersion relations.}}
+      \field{volume}{171}
+      \field{year}{1987}
+      \field{pages}{226}
+      \range{pages}{1}
+      \keyw{Fragmentation,Gravitational Effects,Interstellar Matter,Molecular Clouds,Gas Dynamics,Hydrogen Clouds,Many Body Problem,Scaling Laws,Astrophysics}
     \endentry
   \enddatalist
 \endrefsection
