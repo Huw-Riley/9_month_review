@@ -923,6 +923,215 @@
       \range{pages}{1}
       \keyw{Fragmentation,Gravitational Effects,Interstellar Matter,Molecular Clouds,Gas Dynamics,Hydrogen Clouds,Many Body Problem,Scaling Laws,Astrophysics}
     \endentry
+    \entry{ambipolar_diffusion}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=aa5d2e782a8823f3cbda44da83c27fd8}{%
+           family={{Mestel}},
+           familyi={M\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2b7b2cff74438516ece2871ca4c91ee7}{%
+           family={{Spitzer}},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           suffix={Jr.},
+           suffixi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{fullhash}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{fullhashraw}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{bibnamehash}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{authorbibnamehash}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{authornamehash}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{authorfullhash}{90ebab695ab63fb76d1133cd870d5aa9}
+      \strng{authorfullhashraw}{90ebab695ab63fb76d1133cd870d5aa9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{1}
+      \field{title}{{Star formation in magnetic dust clouds}}
+      \field{volume}{116}
+      \field{year}{1956}
+      \field{pages}{513}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/mnras/116.5.503
+      \endverb
+    \endentry
+    \entry{ambipolar_timescales}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7ab14c92ab994ea90d3c2e74b20a3986}{%
+           family={{Ciolek}},
+           familyi={C\bibinitperiod},
+           given={Glenn\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6d2c238dedfebe6426f0e7bc805afbe1}{%
+           family={{Basu}},
+           familyi={B\bibinitperiod},
+           given={Shantanu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{950659067fcd3706f7162818db7d71c4}
+      \strng{fullhash}{950659067fcd3706f7162818db7d71c4}
+      \strng{fullhashraw}{950659067fcd3706f7162818db7d71c4}
+      \strng{bibnamehash}{950659067fcd3706f7162818db7d71c4}
+      \strng{authorbibnamehash}{950659067fcd3706f7162818db7d71c4}
+      \strng{authornamehash}{950659067fcd3706f7162818db7d71c4}
+      \strng{authorfullhash}{950659067fcd3706f7162818db7d71c4}
+      \strng{authorfullhashraw}{950659067fcd3706f7162818db7d71c4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{On the Timescale for the Formation of Protostellar Cores in Magnetic Interstellar Clouds}}
+      \field{volume}{547}
+      \field{year}{2001}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/318348
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0009262
+      \endverb
+      \keyw{Diffusion,ISM: Dust,Extinction,ISM: Abundances,ISM: Clouds,ISM: Magnetic Fields,Magnetohydrodynamics: MHD,Astrophysics}
+    \endentry
+    \entry{turbulent_frag}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=cc70aacde8b09f34e54c996ea29250e2}{%
+           family={{Mac Low}},
+           familyi={M\bibinitperiod},
+           given={Mordecai-Mark},
+           giveni={M\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=250705693b4e366f618ffff7cdc69889}{%
+           family={{Klessen}},
+           familyi={K\bibinitperiod},
+           given={Ralf\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{fullhash}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{fullhashraw}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{bibnamehash}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{authorbibnamehash}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{authornamehash}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{authorfullhash}{de23ec9915d7240a3a19c59298a11de9}
+      \strng{authorfullhashraw}{de23ec9915d7240a3a19c59298a11de9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Control of star formation by supersonic turbulence}}
+      \field{volume}{76}
+      \field{year}{2004}
+      \field{pages}{31\bibrangedash 44\bibrangessep 62\bibrangedash 66}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.76.125
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0301093
+      \endverb
+      \keyw{97.10.Bt,98.62.Ai,95.30.Lz,95.30.Sf,47.27.-i,47.40.Ki,Star formation,Origin formation evolution age and star formation,Hydrodynamics,Relativity and gravitation,Turbulent flows,Supersonic and hypersonic flows,Astrophysics}
+    \endentry
+    \entry{turbulent_thermal_instabilities}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e9bcc1dbd50a0d87bdf1daa5fdff673a}{%
+           family={{Kritsuk}},
+           familyi={K\bibinitperiod},
+           given={Alexei\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5807e57f45952a1b87f2ba0a0394abad}{%
+           family={{Norman}},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{fullhash}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{fullhashraw}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{bibnamehash}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{authorbibnamehash}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{authornamehash}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{authorfullhash}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \strng{authorfullhashraw}{cbdb7be71eeafd55553ea33ed7c57ca2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apjl}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{{Thermal Instability-induced Interstellar Turbulence}}
+      \field{volume}{569}
+      \field{year}{2002}
+      \field{pages}{4}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/340785
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0112437
+      \endverb
+      \keyw{Hydrodynamics,Instabilities,ISM: Structure,Turbulence,Astrophysics}
+    \endentry
+    \entry{effective_sound_speed}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9e471e6ac911f861e43e742eac08423}{%
+           family={{Chandrasekhar}},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9e471e6ac911f861e43e742eac08423}
+      \strng{fullhash}{a9e471e6ac911f861e43e742eac08423}
+      \strng{fullhashraw}{a9e471e6ac911f861e43e742eac08423}
+      \strng{bibnamehash}{a9e471e6ac911f861e43e742eac08423}
+      \strng{authorbibnamehash}{a9e471e6ac911f861e43e742eac08423}
+      \strng{authornamehash}{a9e471e6ac911f861e43e742eac08423}
+      \strng{authorfullhash}{a9e471e6ac911f861e43e742eac08423}
+      \strng{authorfullhashraw}{a9e471e6ac911f861e43e742eac08423}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London Series A}
+      \field{month}{12}
+      \field{number}{1100}
+      \field{title}{{The Gravitational Instability of an Infinite Homogeneous Turbulent Medium}}
+      \field{volume}{210}
+      \field{year}{1951}
+      \field{pages}{26}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rspa.1951.0228
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
