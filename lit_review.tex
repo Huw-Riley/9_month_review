@@ -4,7 +4,11 @@
 \usepackage{amssymb}		
 \usepackage{siunitx}		
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\graphicspath{{Figures/}}	% Set the figures directory (simplifies graphics import)
 \usepackage{geometry}
+\usepackage{float} % allows the use of 'H' in figures
 
 \usepackage{aas_macros}
 \usepackage[
@@ -206,11 +210,22 @@ Overall scientific questions.
   \tag{8}
 \end{equation}
 
-\par\noindent As the riginal image's beam is described by a Gaussian and the convolution is being completed using a Gasussian function then the resulting image will also be a Gaussian. The variance of the Gaussian can be described by the addition in quadrature of the contributing Gaussian's variances. As the conversion from variance to FWHM is the same for all three factors in the equation, the equation can be written as shown above in \autoref{eq:8}. Where $\Omega$ represents the FWHM beam size, which for the SEDIGISM observations is 28 arcsec \parencite{SEDIGISM_ana}. Working backwards from a final image with a physical beam size of 5pc at the distance of the cloud, the angular FWHM beam size can be calculated. Using the fact that $\sigma = \text{FWHM} / 2\sqrt{2\ln{2}}$, the standard deviation of the gaussian kernel is calculated. As the original physical beam sizes of all the clouds was less than 5pc, there is the added benefit that the data has been smoothed and so the moment 1 maps now show how the velocity changes globally much better.
+\par\noindent As the riginal image's beam is described by a Gaussian and the convolution is being completed using a Gasussian function then the resulting image will also be a Gaussian. The variance of the Gaussian can be described by the addition in quadrature of the contributing Gaussian's variances. As the conversion from variance to FWHM is the same for all three factors in the equation, the equation can be written as shown above in \autoref{eq:8}. Where $\Omega$ represents the FWHM beam size, which for the SEDIGISM observations is 28 arcsec \parencite{SEDIGISM_ana}. Working backwards from a final image with a physical beam size of 5pc at the distance of the cloud, the angular FWHM beam size can be calculated. Using the fact that $\sigma = \text{FWHM} / 2\sqrt{2\ln{2}}$, the standard deviation of the gaussian kernel is calculated. As the original physical beam sizes of all the clouds was less than 5pc, there is the added benefit that the data has been smoothed and so the moment 1 maps now show much better how the velocity changes globally.
 \smallskip
-\par\noindent 
+\par\noindent The velocity gradient is calculated on a pixel by pixel basis and for an individual pixel it is dependent on the velocities of the surrounding pixels. The gradient in galactic longitude and galactic latitude is calculated individually and is also converted into a magnitude and an angle, each of these are saved as a FITS image. The velocity gradient is defined as the change in velocity per unit distance and these changes are calculated horizontally, vertically and diasgonally. The gradient in the direction of galactic longitude is the sum of the horizontal change in velocity and the horizontal components of the diagonal change in velocity. Typically, all surrounding pixels must be non-zero for the gradient to be calculated, but if the horizontal and vertical suyrrounding pixels are non-zero then they are used exclusively to calculate the velocity graident. The gradient in galactic longitude and latitude is positive for a gradient in the direction of positive galactic longitude and latitude. The angle is in degrees and is zero for positive latitude and increases clockwise towards negative galactic longitude. The methods for calculating the velocity gradient were used on the raw moment 1 maps as well as the many differently smoothed versions and after comparison of several clouds it was obvious that the smoothed moment 1 maps give a much more precise velocity gradient.
 
-\par\noindent The methods for calculating the velocity gradient were used on the raw moment 1 maps as well as the many differently smoothed versions and after comparison of several clouds it was obvious that the smoothed moment 1 maps give a much more precise velocity gradient 
+\end{multicols}
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{cloud_4107_m1.png}
+    \caption{The velocity gradient direction is shown by the yellow arrow and the spin vector is shown by the green arrow. The colourmap behind the gradient is of cloud 4107 from the SEDIGISM catalogue.\label{fig:1}}
+    \vspace{-0.7em}
+\end{figure}
+
+\begin{multicols}{2}
+[]
+
+\par\noindent 
 
 % -----------------------------------------------
 
