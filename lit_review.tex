@@ -5,6 +5,7 @@
 \usepackage{siunitx}		
 \usepackage{graphicx}
 \usepackage{caption}
+\captionsetup[figure]{font=small}
 \usepackage{subcaption}
 \graphicspath{{Figures/}}	% Set the figures directory (simplifies graphics import)
 \usepackage{geometry}
@@ -212,18 +213,25 @@ Overall scientific questions.
 
 \par\noindent As the riginal image's beam is described by a Gaussian and the convolution is being completed using a Gasussian function then the resulting image will also be a Gaussian. The variance of the Gaussian can be described by the addition in quadrature of the contributing Gaussian's variances. As the conversion from variance to FWHM is the same for all three factors in the equation, the equation can be written as shown above in \autoref{eq:8}. Where $\Omega$ represents the FWHM beam size, which for the SEDIGISM observations is 28 arcsec \parencite{SEDIGISM_ana}. Working backwards from a final image with a physical beam size of 5pc at the distance of the cloud, the angular FWHM beam size can be calculated. Using the fact that $\sigma = \text{FWHM} / 2\sqrt{2\ln{2}}$, the standard deviation of the gaussian kernel is calculated. As the original physical beam sizes of all the clouds was less than 5pc, there is the added benefit that the data has been smoothed and so the moment 1 maps now show much better how the velocity changes globally.
 \smallskip
-\par\noindent The velocity gradient is calculated on a pixel by pixel basis and for an individual pixel it is dependent on the velocities of the surrounding pixels. The gradient in galactic longitude and galactic latitude is calculated individually and is also converted into a magnitude and an angle, each of these are saved as a FITS image. The velocity gradient is defined as the change in velocity per unit distance and these changes are calculated horizontally, vertically and diasgonally. The gradient in the direction of galactic longitude is the sum of the horizontal change in velocity and the horizontal components of the diagonal change in velocity. Typically, all surrounding pixels must be non-zero for the gradient to be calculated, but if the horizontal and vertical suyrrounding pixels are non-zero then they are used exclusively to calculate the velocity graident. The gradient in galactic longitude and latitude is positive for a gradient in the direction of positive galactic longitude and latitude. The angle is in degrees and is zero for positive latitude and increases clockwise towards negative galactic longitude. The methods for calculating the velocity gradient were used on the raw moment 1 maps as well as the many differently smoothed versions and after comparison of several clouds it was obvious that the smoothed moment 1 maps give a much more precise velocity gradient.
-
-\end{multicols}
+\par\noindent The velocity gradient is calculated on a pixel by pixel basis and for an individual pixel it is dependent on the velocities of the eight pixels surrounding it. The gradient in galactic longitude and galactic latitude is calculated individually and is also converted into a magnitude and an angle, each of these are saved as a FITS image. The velocity gradient is defined as the change in velocity per unit distance and these changes are calculated horizontally, vertically and diasgonally, by subtracting opposite velocities from one another. The gradient in the direction of galactic longitude is the sum of the horizontal change in velocity and the horizontal components of the diagonal change in velocity. Typically, all surrounding pixels must be non-zero for the gradient to be calculated, but if the horizontal and vertical suyrrounding pixels are non-zero then they are used exclusively to calculate the velocity graident. The gradient in galactic longitude and latitude is positive for a gradient in the direction of positive galactic longitude and latitude. The angle is in degrees and is zero for positive latitude and increases clockwise towards negative galactic longitude. The methods for calculating the velocity gradient were used on the raw moment 1 maps as well as the many differently smoothed versions and after comparison of several clouds it was obvious that the smoothed moment 1 maps give a much more precise velocity gradient.
 
 \begin{figure}[H]
-    \includegraphics[width=\textwidth]{cloud_4107_m1.png}
-    \caption{The velocity gradient direction is shown by the yellow arrow and the spin vector is shown by the green arrow. The colourmap behind the gradient is of cloud 4107 from the SEDIGISM catalogue.\label{fig:1}}
-    \vspace{-0.7em}
+  \centering
+  \includegraphics[width=.47\textwidth]{cloud_4107_m1.png}
+  \caption{The velocity gradient direction is shown by the yellow arrow and the spin vector is shown by the green arrow. The colourmap is the moment 1 map, smoothed to 5pc, of cloud 4107 from the SEDIGISM catalogue.\label{fig:1}}
+  \vspace{-0.7em}
 \end{figure}
 
-\begin{multicols}{2}
-[]
+\par\noindent The angle of the velocity gradient of the cloud as a whole, indicated by the yellow arrow in \autoref{fig:1}, was calculated by taking the mean of all the pixel by pixel velocity gradients in galactic longitude and latitude and converting to an angle and magnitude which are stored in an updated version of the catalogue. Due to the intircacies of errors when it comes to a cyclical values like angles, the errors could not be well constrained and so an estimate of the spread of the angles has been made. This was done by taking the circular standard deviation of the angles in the FITS image showing the direction of the velocity gradients pixel by pixel. The velocity gradient could not be estimated for all clouds as some of them had too few pixels with values in the moment 1 map to have a sufficient number of surrounding pixels for the calculation to take place. The velocity gradients for $10 293$ clouds were successfully calculated.
+\smallskip
+\par\noindent Using a radius of one pixel for the surrounding pixels for the calculation of the velocity gradient is technicaly incorrect because the image has been smoothed. This is due to the nature of convolutions, and it means that a given pixel, post smoothing, is now dependent on the pixels less than half the kernel length away. The kernel's length is a function of the Gaussian's standard deviation and scales as $l_k = 2\times\text{int}(4*\sigma) + 1$. Even though the kernel is rather large, the weights for the convolution will be negligible before the edge of the kernel. If the significant bandwidth of this Gaussian is assumed to be $\sigma$, then based on the Nyquist sampling theorem, the diameter for the surrounding pixels should be $2\sigma$, to avoid aliasing. The issue with using this method is that the velocity gradient cannot be calculated for over half of the clouds due to not having pixels with values in at these distances. Therefore, both methods were tested to compare results for the half that could be calculated.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.47\textwidth]{sigr_vs_1r_5pc_angle.png}
+  \caption{The comparison of the results from using the different methods for calculating the direction of velocity gradient.\label{fig:2}}
+  \vspace{-0.7em}
+\end{figure}
 
 \par\noindent 
 

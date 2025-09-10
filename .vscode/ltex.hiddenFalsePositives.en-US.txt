@@ -1,1 +1,2 @@
 {"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q]\\E$"}
+{"rule":"IN_THE_MOMENT","sentence":"^\\QThe velocity gradient could not be estimated for all clouds as some of them had too few pixels with values in the moment 1 map to have a sufficient number of surrounding pixels for the calculation to take place.\\E$"}
