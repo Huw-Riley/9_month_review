@@ -1467,66 +1467,6 @@
       \endverb
       \keyw{surveys,ISM: structure,Galaxy: kinematics and dynamics,radio lines: ISM,Astrophysics - Astrophysics of Galaxies}
     \endentry
-    \entry{SCIMES}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=9e6e21a9dd2b274fe819de046b2bf43b}{%
-           family={{Colombo}},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e7c1251c9358bcffdad370549da1cea5}{%
-           family={{Rosolowsky}},
-           familyi={R\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=9f597dfaaa61fb28e8dbda878a4dab55}{%
-           family={{Ginsburg}},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=16eff66094bce7d090250d059b047ea9}{%
-           family={{Duarte-Cabral}},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=47309146baaf648405071884f72ba188}{%
-           family={{Hughes}},
-           familyi={H\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{20e940c60d69f607ba5198d86456aaf3}
-      \strng{fullhash}{84d99f055849f163a328cfe22dcf6c73}
-      \strng{fullhashraw}{84d99f055849f163a328cfe22dcf6c73}
-      \strng{bibnamehash}{20e940c60d69f607ba5198d86456aaf3}
-      \strng{authorbibnamehash}{20e940c60d69f607ba5198d86456aaf3}
-      \strng{authornamehash}{20e940c60d69f607ba5198d86456aaf3}
-      \strng{authorfullhash}{84d99f055849f163a328cfe22dcf6c73}
-      \strng{authorfullhashraw}{84d99f055849f163a328cfe22dcf6c73}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{astro-ph.GA}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{12}
-      \field{number}{2}
-      \field{title}{{Graph-based interpretation of the molecular interstellar medium segmentation}}
-      \field{volume}{454}
-      \field{year}{2015}
-      \field{pages}{2068}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1093/mnras/stv2063
-      \endverb
-      \verb{eprint}
-      \verb 1510.04253
-      \endverb
-      \keyw{methods: analytical,methods: data analysis,techniques: image processing,ISM: clouds,ISM: structure,Astrophysics - Astrophysics of Galaxies}
-    \endentry
     \entry{SEDIGISM_ana}{misc}{}{}
       \name{author}{60}{}{%
         {{hash=16eff66094bce7d090250d059b047ea9}{%
@@ -1859,6 +1799,151 @@
       \verb 2012.01502
       \endverb
       \keyw{ISM: clouds,Galaxy: structure,stars: formation,galaxies: ISM,star formation,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{SCIMES}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=9e6e21a9dd2b274fe819de046b2bf43b}{%
+           family={{Colombo}},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e7c1251c9358bcffdad370549da1cea5}{%
+           family={{Rosolowsky}},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9f597dfaaa61fb28e8dbda878a4dab55}{%
+           family={{Ginsburg}},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16eff66094bce7d090250d059b047ea9}{%
+           family={{Duarte-Cabral}},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=47309146baaf648405071884f72ba188}{%
+           family={{Hughes}},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20e940c60d69f607ba5198d86456aaf3}
+      \strng{fullhash}{84d99f055849f163a328cfe22dcf6c73}
+      \strng{fullhashraw}{84d99f055849f163a328cfe22dcf6c73}
+      \strng{bibnamehash}{20e940c60d69f607ba5198d86456aaf3}
+      \strng{authorbibnamehash}{20e940c60d69f607ba5198d86456aaf3}
+      \strng{authornamehash}{20e940c60d69f607ba5198d86456aaf3}
+      \strng{authorfullhash}{84d99f055849f163a328cfe22dcf6c73}
+      \strng{authorfullhashraw}{84d99f055849f163a328cfe22dcf6c73}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.GA}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{{Graph-based interpretation of the molecular interstellar medium segmentation}}
+      \field{volume}{454}
+      \field{year}{2015}
+      \field{pages}{2068}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1093/mnras/stv2063
+      \endverb
+      \verb{eprint}
+      \verb 1510.04253
+      \endverb
+      \keyw{methods: analytical,methods: data analysis,techniques: image processing,ISM: clouds,ISM: structure,Astrophysics - Astrophysics of Galaxies}
+    \endentry
+    \entry{ThrUMMS}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=31306b96236da665cf790e7fd17c132b}{%
+           family={{Barnes}},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=935633260fe09df745bdb7c18d33e216}{%
+           family={{Muller}},
+           familyi={M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c9ec7ee02fff577da2a475964554d1b9}{%
+           family={{Nguyen Luong}},
+           familyi={N\bibinitperiod},
+           given={Quang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=828769817dbce337dad8a4be8580841a}{%
+           family={{Nguyen}},
+           familyi={N\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e4ba541ff766d0840ce72d86e5bfe1b}
+      \strng{fullhash}{04bff460437be32e41a4eae8916aab08}
+      \strng{fullhashraw}{04bff460437be32e41a4eae8916aab08}
+      \strng{bibnamehash}{0e4ba541ff766d0840ce72d86e5bfe1b}
+      \strng{authorbibnamehash}{0e4ba541ff766d0840ce72d86e5bfe1b}
+      \strng{authornamehash}{0e4ba541ff766d0840ce72d86e5bfe1b}
+      \strng{authorfullhash}{04bff460437be32e41a4eae8916aab08}
+      \strng{authorfullhashraw}{04bff460437be32e41a4eae8916aab08}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IAU General Assembly}
+      \field{eid}{2251488}
+      \field{month}{8}
+      \field{title}{{The Three-mm Ultimate Mopra Milky Way Survey (ThrUMMS): A New View of the Molecular Milky Way}}
+      \field{volume}{29}
+      \field{year}{2015}
+      \field{pages}{1}
+      \range{pages}{1}
+    \endentry
+    \entry{Gradient_method}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6ee605d25919b02b399674ab78c0123f}{%
+           family={{Arquilla}},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=163a66b1c6a26775ff18a15d966e65e6}{%
+           family={{Goldsmith}},
+           familyi={G\bibinitperiod},
+           given={P.\bibnamedelimi F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{28e823db7104908cf5a996a324837b74}
+      \strng{fullhash}{28e823db7104908cf5a996a324837b74}
+      \strng{fullhashraw}{28e823db7104908cf5a996a324837b74}
+      \strng{bibnamehash}{28e823db7104908cf5a996a324837b74}
+      \strng{authorbibnamehash}{28e823db7104908cf5a996a324837b74}
+      \strng{authornamehash}{28e823db7104908cf5a996a324837b74}
+      \strng{authorfullhash}{28e823db7104908cf5a996a324837b74}
+      \strng{authorfullhashraw}{28e823db7104908cf5a996a324837b74}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\apj}
+      \field{month}{4}
+      \field{title}{{A Detailed Examination of the Kinematics of Rotating Dark Clouds}}
+      \field{volume}{303}
+      \field{year}{1986}
+      \field{pages}{2\bibrangedash 4}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1086/164082
+      \endverb
+      \keyw{Angular Velocity,Astronomical Models,Molecular Clouds,Spectrum Analysis,Velocity Distribution,Astronomical Maps,Carbon Monoxide,Kinematics,Mass Distribution,Nebulae,Rotation,Spatial Distribution,Astrophysics,INTERSTELLAR: MOLECULES,NEBULAE: GENERAL}
     \endentry
   \enddatalist
 \endrefsection
