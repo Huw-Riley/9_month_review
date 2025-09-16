@@ -232,7 +232,7 @@ sorting=none
   \centering
   \includesvg[width=.4715\textwidth]{sigr_vs_1r_5pc_angle}
   \caption{The comparison of the results from using the different methods for calculating the direction of velocity gradient.\label{fig:2}}
-  \vspace{-0.7em}
+  \vspace{-1em}
 \end{figure}
 
 \par\noindent \autoref{fig:2} shows a positive linear correlation with a Pearson's correlation coefficient of 0.86. The density of points has been included to show that the trend is more linear that it may appear. The group of points at $\left(0, 360\right)$ and $\left(360, 0\right)$ realistically should fall on the straight line, but due to the cyclical nature of angles, the mean can fall just above zero and still be very close to $360^{\circ}$. These edge cases were not removed during the calculation of Pearson's correlation coefficient, it would be closer to one if the points had been removed. There are a few clouds that have vastly changing directions for the velocity gradient, but a significant majority have matching angles. Therefore, to ensure that almost all the clouds have their velocity gradients calculated, the method will go forward using the radius of one pixel for the gradient calculation.
